@@ -1,4 +1,3 @@
 # CSE340_Assignment1
-Project one for the course Principles of Programming Languages. Project pdf included in documents.
-lexer.cc, lexer.h, inputbuf.cc, and inputbuf.h are provided by the instructor and completely unedited by me. parser.cc and parser.h were included with enough code to make the previously mentioned files function. Student's job it to make the program accept an input with a token, a regular expression, and a string, create a NFA graph for the regular expression and return a list of tokens containing longest matching strings for the NFA.
-parse_expr works and is creating the NFA graph, and matchOneChar appears to be functioning. The problem lies in the handling of spaces in the the input string. If getToken and match encounter a space they are supposed to treat the string after the space and before the next one as an entirely new string to match, and an issue is occurring in either of these two functions in regards to handling this. The assignment was due last night so I submitted it for partial credit, and the chances of me getting back to it are currently low due to interest in developing my skills as a web developer.  
+Project one for the course Principles of Programming Languages
+lexer.cc, lexer.h, inputbuf.cc, and inputbuf.h are provided by the instructor and completely unedited by me.
