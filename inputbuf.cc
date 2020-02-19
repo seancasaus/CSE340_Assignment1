@@ -13,6 +13,7 @@
 
 using namespace std;
 
+//this is a comment
 bool InputBuffer::EndOfInput()
 {
     if (!input_buffer.empty())
